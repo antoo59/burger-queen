@@ -1,0 +1,31 @@
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    background-color: rgba(243, 29, 29, 0.9);
+    text-align: center;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: column;
+}
+
+.icone {
+    display: none;
+}
+
+header nav ul li a {
+    font-size: 1.3rem;
+    margin: 0rem 2rem 0 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+/* CONTENU */

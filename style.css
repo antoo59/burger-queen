@@ -1,0 +1,178 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 4rem;
+    background-color: rgba(243, 29, 29, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: ;
+}
+
+.icone {
+    margin-left: auto;
+}
+
+header nav ul li a {
+    font-size: 1.6rem;
+    margin: 0 2rem 0 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: orange;
+}
+
+.container {
+    width: 80%;
+    margin: 7rem auto 0 auto;
+}
+
+
+/* CONTENU */
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    margin-bottom: 3rem;
+}
+
+h1 i {
+    padding-left: 1.5rem;
+    transform: rotate(12deg);
+}
+
+h2 {
+    margin-bottom: 4rem;
+    color: orange;
+    font-size: 2.5rem;
+    border: red solid 5px;
+    border-radius: 50%;
+    border-top: none;
+    border-right: none;
+    padding: 0.5rem 0.5rem 2rem 22rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titreUn {
+    font-family: 'Sriracha', cursive;
+    color: orange;
+}
+
+img {
+    height: 200px;
+    width: 229px;
+    /* border: orange solid 1.5px; */
+    border-radius: 30px;
+    margin: 5px;
+    transition: all 1s;
+}
+
+img:hover {
+    background-color: red;
+    transform: rotate(10deg);
+    filter: contrast(150%) brightness(105%);
+}
+
+.test {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.container div div p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(238, 42, 42, 0.884);
+}
+
+.container div div p:hover {
+    color: red;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 280px;
+    background-color: orange;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer .reseau {
+    font-size: 2rem;
+}
+
+footer div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div .aligner {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div ul p {
+    margin-bottom: 1rem;
+}
+
+footer div ul {
+    margin-right: 5rem;
+}
+
+footer div ul li {
+    font-size: 1.5rem;
+}
+
+footer div ul .incone {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    color: rgba(5, 5, 172, 0.911);
+}
+
+footer div .copyrigth {
+    display: flex;
+    flex-direction: column;
+}
